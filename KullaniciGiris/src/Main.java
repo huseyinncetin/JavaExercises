@@ -16,9 +16,9 @@ public class Main {
             istek =input.nextInt();
 
             if(istek==1){
-                Scanner yenile = new Scanner(System.in);
+
                 System.out.println("Şifreyi giriniz:");
-                yeniSifre = yenile.nextInt();
+                yeniSifre = input.nextInt();
 
                 if(yeniSifre == 5){
                     System.out.println("Şifre oluşturulamadı lütfen tekrar deneyin.");
